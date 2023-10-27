@@ -1,4 +1,4 @@
-POST https://nodepostgres-production.up.railway.app/videos
+POST https://nodepostgres-production.up.railway.app/
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET https://nodepostgres-production.up.railway.app/videos
+GET https://nodepostgres-production.up.railway.app/
 
 ###
 
-PUT https://nodepostgres-production.up.railway.app/videos/9bb7e2a5-dfd0-4fc1-ab8b-4d57693c408e
+PUT https://nodepostgres-production.up.railway.app/9bb7e2a5-dfd0-4fc1-ab8b-4d57693c408e
 Content-Type: application/json
 
 {
@@ -24,7 +24,7 @@ Content-Type: application/json
 
 ###
 
-DELETE https://nodepostgres-production.up.railway.app/videos/c460414b-7022-4d1a-bef5-948cbc092d49
+DELETE https://nodepostgres-production.up.railway.app/0a5dd4bf-9398-4d1e-8dc4-e7a04d3cba87
 Content-Type: application/json
 
 {
