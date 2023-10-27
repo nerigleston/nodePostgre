@@ -1,4 +1,4 @@
-POST http://localhost:3333/videos
+POST https://nodepostgres-production.up.railway.app/videos
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET https://nodepostgres-production.up.railway.app/videos
 
 ###
 
-PUT http://localhost:3333/videos/9bb7e2a5-dfd0-4fc1-ab8b-4d57693c408e
+PUT https://nodepostgres-production.up.railway.app/videos/9bb7e2a5-dfd0-4fc1-ab8b-4d57693c408e
 Content-Type: application/json
 
 {
@@ -24,7 +24,7 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/c460414b-7022-4d1a-bef5-948cbc092d49
+DELETE https://nodepostgres-production.up.railway.app/videos/c460414b-7022-4d1a-bef5-948cbc092d49
 Content-Type: application/json
 
 {
